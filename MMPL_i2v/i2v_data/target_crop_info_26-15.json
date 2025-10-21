@@ -1,0 +1,13 @@
+[
+    {
+        "file_name": "image_ballet_dance_1280x720.png",
+        "caption": "A male ballet dancer performing a graceful pose on stage, wearing a sleeveless golden wrap top and loose golden trousers with ballet slippers. His arms are extended elegantly, one forward and one to the side, with his gaze directed upward. The background features soft brown stage curtains, and the lighting creates a warm, theatrical atmosphere.",
+        "target_crop": {
+            "target_bbox": [0, 0, 1280, 720],
+            "target_ratio": "26-15"
+        },
+        "type": "image",
+        "origin_width": 1280,
+        "origin_height": 720
+    }
+]

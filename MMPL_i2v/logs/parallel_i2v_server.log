@@ -1,0 +1,1202 @@
+2025-09-26 08:34:57,951 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 08:34:57,954 - __main__ - INFO - Loading models...
+2025-09-26 08:34:57,963 - __main__ - INFO - Loading I2V models...
+2025-09-26 08:36:04,360 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 08:42:00,737 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 08:42:00,737 - __main__ - INFO - Loading models...
+2025-09-26 08:42:00,738 - __main__ - INFO - Loading I2V models...
+2025-09-26 08:42:17,492 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 08:42:17,492 - __main__ - INFO - Loading models...
+2025-09-26 08:42:17,493 - __main__ - INFO - Loading I2V models...
+2025-09-26 08:43:29,356 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 08:43:58,641 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 08:43:58,641 - __main__ - INFO - 使用 generator 权重
+2025-09-26 08:44:09,130 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:2
+2025-09-26 08:52:46,308 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 08:52:46,309 - __main__ - INFO - Loading models...
+2025-09-26 08:52:46,309 - __main__ - INFO - Loading I2V models...
+2025-09-26 08:53:54,575 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 08:54:17,857 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 08:54:17,858 - __main__ - INFO - 使用 generator 权重
+2025-09-26 08:54:28,798 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:2
+2025-09-26 08:55:38,393 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 08:56:07,043 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 08:56:07,043 - __main__ - INFO - 使用 generator 权重
+2025-09-26 08:56:16,196 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:3
+2025-09-26 08:59:43,286 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 08:59:43,286 - __main__ - INFO - Loading models...
+2025-09-26 08:59:43,287 - __main__ - INFO - Loading I2V models...
+2025-09-26 09:00:43,048 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:01:08,387 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:01:08,388 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:01:14,837 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 09:02:16,617 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:02:45,655 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:02:45,656 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:02:54,532 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 09:03:55,970 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:04:24,130 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:04:24,130 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:04:30,984 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 09:05:35,093 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:06:07,276 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:06:07,277 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:06:15,630 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 09:06:17,198 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 09:06:17,199 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 09:06:17,199 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 09:06:17,200 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 09:06:17,200 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 09:11:42,040 - __main__ - ERROR - Failed to download image from http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/b8bd85561c514b178e9fc1fc5885f7e0.png: 403 Client Error: Forbidden for url: http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 09:11:42,041 - __main__ - ERROR - Video generation failed for task 5364c76b-dd9b-4266-bbe4-5a67177fd194: 403 Client Error: Forbidden for url: http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 09:12:21,315 - __main__ - ERROR - Failed to download image from https://example.com/cat.jpg: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: /cat.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f57d5bef510>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2025-09-26 09:12:21,315 - __main__ - ERROR - Video generation failed for task 4dc7a40d-1620-4713-aa54-4d19fbc41738: HTTPSConnectionPool(host='example.com', port=443): Max retries exceeded with url: /cat.jpg (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f57d5bef510>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+2025-09-26 09:24:05,433 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 09:24:05,433 - __main__ - INFO - Loading models...
+2025-09-26 09:24:05,434 - __main__ - INFO - Loading I2V models...
+2025-09-26 09:25:15,248 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:25:43,919 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:25:43,919 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:25:51,778 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 09:27:11,063 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:27:47,192 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:27:47,192 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:28:03,482 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 09:29:14,432 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:29:45,214 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:29:45,215 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:29:52,813 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 09:31:01,515 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:31:33,075 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:31:33,076 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:31:41,033 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 09:31:42,669 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 09:31:42,670 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 09:31:42,671 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 09:31:42,671 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 09:31:42,671 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 09:32:50,601 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 09:32:50,605 - __main__ - ERROR - Failed to download image from S3: http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/b8bd85561c514b178e9fc1fc5885f7e0.png, error: name 'download_image_by_object_name' is not defined
+2025-09-26 09:32:50,605 - __main__ - ERROR - Video generation failed for task 1131232e-eff5-46ca-8d4c-d642f231701b: name 'download_image_by_object_name' is not defined
+2025-09-26 09:41:47,156 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 09:41:47,237 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 09:41:47,237 - __main__ - INFO - Loading models...
+2025-09-26 09:41:47,238 - __main__ - INFO - Loading I2V models...
+2025-09-26 09:43:00,427 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:43:29,709 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:43:29,709 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:43:38,834 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 09:44:55,837 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:45:28,037 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:45:28,038 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:45:41,185 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 09:46:55,394 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:47:26,457 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:47:26,458 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:47:37,829 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 09:48:51,296 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:49:23,896 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:49:23,897 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:49:36,359 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 09:49:37,978 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 09:49:37,984 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 09:49:37,984 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 09:49:37,984 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 09:49:37,984 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 09:49:59,508 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 09:49:59,631 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_f9c78d3d085441abb1dcff477ccc4221.jpg
+2025-09-26 09:49:59,643 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_f9c78d3d085441abb1dcff477ccc4221.jpg
+2025-09-26 09:49:59,654 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 09:49:59,655 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 09:49:59,655 - __main__ - ERROR - Video generation failed for task 3a42122f-ca4d-4285-9af9-32b6f161ffda: 'ParallelI2VGenerationService' object has no attribute '_generate_video_tensor'
+2025-09-26 09:55:59,544 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 09:55:59,615 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 09:55:59,615 - __main__ - INFO - Loading models...
+2025-09-26 09:55:59,615 - __main__ - INFO - Loading I2V models...
+2025-09-26 09:57:11,025 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:57:40,845 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:57:40,846 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:57:52,029 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 09:59:02,187 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 09:59:33,689 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 09:59:33,690 - __main__ - INFO - 使用 generator 权重
+2025-09-26 09:59:47,320 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 10:00:58,336 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:01:29,206 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:01:29,206 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:01:43,422 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 10:02:55,410 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:03:25,763 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:03:25,763 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:03:39,825 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 10:03:41,452 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 10:03:41,453 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 10:03:41,454 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 10:03:41,454 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 10:03:41,454 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 10:06:30,923 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 10:06:31,159 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_87fd55fb76e1478d99d9afc98f0b55cd.jpg
+2025-09-26 10:06:31,170 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_87fd55fb76e1478d99d9afc98f0b55cd.jpg
+2025-09-26 10:06:31,174 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 10:06:31,174 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 10:06:31,220 - __main__ - INFO - Generating video chunk 1/4
+2025-09-26 10:06:31,221 - __main__ - ERROR - Failed to generate video tensor: _forward_unimplemented() got an unexpected keyword argument 'image'
+2025-09-26 10:06:31,221 - __main__ - ERROR - Video generation failed for task 9c0757ab-687c-4504-b19f-c9d0e95d3275: _forward_unimplemented() got an unexpected keyword argument 'image'
+2025-09-26 10:22:58,711 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 10:22:58,802 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 10:22:58,803 - __main__ - INFO - Loading models...
+2025-09-26 10:22:58,803 - __main__ - INFO - Loading I2V models...
+2025-09-26 10:24:09,534 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:24:40,462 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:24:40,463 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:24:51,505 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 10:25:52,389 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:26:21,325 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:26:21,325 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:26:27,963 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 10:27:34,211 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:27:58,298 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:27:58,298 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:28:06,094 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 10:29:09,476 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:29:37,609 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:29:37,610 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:29:45,185 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 10:29:46,948 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 10:29:46,950 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 10:29:46,950 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 10:29:46,950 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 10:29:46,950 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 10:31:56,236 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 10:31:56,465 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_af03940c83334ad8864ea2020b53e41c.jpg
+2025-09-26 10:31:56,474 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_af03940c83334ad8864ea2020b53e41c.jpg
+2025-09-26 10:31:56,477 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 10:31:56,477 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 10:31:56,849 - __main__ - ERROR - [Chunk 1] Generation failed: 'WanVAEWrapper' object has no attribute 'device'
+2025-09-26 10:31:57,074 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 10:31:57,077 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 10:31:57,077 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 10:31:57,079 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 10:31:57,081 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 10:34:02,118 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 10:34:02,123 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 10:36:17,202 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 10:36:17,206 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 10:38:42,586 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 10:41:06,715 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 10:43:23,257 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 10:43:23,259 - __main__ - ERROR - Failed to generate video tensor: No video chunks generated or some chunks failed
+2025-09-26 10:43:23,259 - __main__ - ERROR - Video generation failed for task f09fd694-c490-404d-abf0-58eb2b822d37: No video chunks generated or some chunks failed
+2025-09-26 10:52:07,138 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 10:52:07,235 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 10:52:07,235 - __main__ - INFO - Loading models...
+2025-09-26 10:52:07,235 - __main__ - INFO - Loading I2V models...
+2025-09-26 10:53:06,101 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:53:30,747 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:53:30,748 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:53:38,090 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 10:54:39,411 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:55:08,221 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:55:08,222 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:55:14,593 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 10:56:14,219 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:56:39,216 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:56:39,216 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:56:46,076 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 10:57:48,594 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 10:58:16,895 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 10:58:16,896 - __main__ - INFO - 使用 generator 权重
+2025-09-26 10:58:23,404 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 10:58:24,964 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 10:58:24,966 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 10:58:24,966 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 10:58:24,966 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 10:58:24,967 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 11:45:25,323 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 11:45:25,421 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_e35e9e538aae4ffdb49e6565a166dcdc.jpg
+2025-09-26 11:45:25,428 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_e35e9e538aae4ffdb49e6565a166dcdc.jpg
+2025-09-26 11:45:25,432 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 11:45:25,432 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 11:45:25,479 - __main__ - ERROR - [Chunk 1] Generation failed: 'WanVAEWrapper' object has no attribute 'device'
+2025-09-26 11:45:25,574 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 11:45:25,585 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 11:45:25,586 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 11:50:09,220 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 11:50:09,310 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 11:50:09,311 - __main__ - INFO - Loading models...
+2025-09-26 11:50:09,311 - __main__ - INFO - Loading I2V models...
+2025-09-26 11:51:08,086 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 11:51:32,212 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 11:51:32,213 - __main__ - INFO - 使用 generator 权重
+2025-09-26 11:51:38,371 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 11:52:40,282 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 11:53:09,114 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 11:53:09,114 - __main__ - INFO - 使用 generator 权重
+2025-09-26 11:53:17,184 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 11:54:15,544 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 11:54:41,530 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 11:54:41,531 - __main__ - INFO - 使用 generator 权重
+2025-09-26 11:54:47,752 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 11:55:49,237 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 11:56:17,725 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 11:56:17,726 - __main__ - INFO - 使用 generator 权重
+2025-09-26 11:56:24,043 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 11:56:25,635 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 11:56:25,637 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 11:56:25,637 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 11:56:25,637 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 11:56:25,638 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 11:56:32,240 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 11:56:32,468 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_31f5a8fea2d74fdcac2540e389cf6147.jpg
+2025-09-26 11:56:32,476 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_31f5a8fea2d74fdcac2540e389cf6147.jpg
+2025-09-26 11:56:32,478 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 11:56:32,478 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 11:56:32,572 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 11:56:32,582 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 11:56:32,582 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 11:56:56,154 - __main__ - ERROR - [Chunk 1] Generation failed: CUDA error: device-side assert triggered
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+2025-09-26 12:00:49,722 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 12:00:49,796 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 12:00:49,797 - __main__ - INFO - Loading models...
+2025-09-26 12:00:49,797 - __main__ - INFO - Loading I2V models...
+2025-09-26 12:02:01,534 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:02:31,084 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:02:31,084 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:02:42,944 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 12:03:51,729 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:05:13,395 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 12:05:13,487 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 12:05:13,488 - __main__ - INFO - Loading models...
+2025-09-26 12:05:13,488 - __main__ - INFO - Loading I2V models...
+2025-09-26 12:06:24,484 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:06:54,953 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:06:54,953 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:07:04,900 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 12:08:12,492 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:08:44,415 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:08:44,415 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:08:52,222 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 12:10:00,186 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:10:33,002 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:10:33,003 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:10:39,703 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 12:11:46,709 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:12:19,193 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:12:19,194 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:12:26,678 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 12:12:28,359 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 12:12:28,361 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 12:12:28,361 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 12:12:28,362 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 12:12:28,362 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 12:12:31,813 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 12:12:31,990 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_41c475af9c61419a888359ad4308d6d9.jpg
+2025-09-26 12:12:31,998 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_41c475af9c61419a888359ad4308d6d9.jpg
+2025-09-26 12:12:32,000 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 12:12:32,001 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 12:12:32,056 - __main__ - ERROR - [Chunk 1] Generation failed: 'WanVAEWrapper' object has no attribute 'device'
+2025-09-26 12:12:32,173 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 12:12:32,173 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 12:12:32,185 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 12:17:12,900 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 12:17:12,987 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 12:17:12,987 - __main__ - INFO - Loading models...
+2025-09-26 12:17:12,988 - __main__ - INFO - Loading I2V models...
+2025-09-26 12:18:12,330 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:18:36,608 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:18:36,608 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:18:43,060 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 12:19:44,418 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:20:13,242 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:20:13,243 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:20:21,333 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 12:21:19,237 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:21:45,835 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:21:45,836 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:21:52,100 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 12:22:53,182 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:23:21,983 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:23:21,984 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:23:28,111 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 12:23:29,756 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 12:23:29,758 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 12:23:29,758 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 12:23:29,758 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 12:23:29,758 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 12:23:38,880 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 12:23:39,066 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_f49d5b941e204b22bbb13a3af2dd97c3.jpg
+2025-09-26 12:23:39,074 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_f49d5b941e204b22bbb13a3af2dd97c3.jpg
+2025-09-26 12:23:39,078 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 12:23:39,078 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 12:23:39,127 - __main__ - ERROR - [Chunk 1] Generation failed: 'WanVAEWrapper' object has no attribute 'device'
+2025-09-26 12:23:39,245 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 12:23:39,246 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 12:23:39,246 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 12:26:48,303 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 12:26:48,377 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 12:26:48,377 - __main__ - INFO - Loading models...
+2025-09-26 12:26:48,377 - __main__ - INFO - Loading I2V models...
+2025-09-26 12:27:47,892 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:28:11,748 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:28:11,749 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:28:17,752 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 12:29:19,688 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:29:48,213 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:29:48,214 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:29:57,107 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 12:30:57,877 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:31:24,212 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:31:24,212 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:31:32,666 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 12:32:34,758 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:33:03,224 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:33:03,225 - __main__ - INFO - 使用 generator 权重
+2025-09-26 12:33:12,217 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 12:33:13,966 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 12:33:13,968 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 12:33:13,968 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 12:33:13,968 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 12:33:13,968 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 12:33:17,754 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 12:33:17,919 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_2722f2b4fcbc4a11ad15d59f80b36969.jpg
+2025-09-26 12:33:17,928 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_2722f2b4fcbc4a11ad15d59f80b36969.jpg
+2025-09-26 12:33:17,930 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 12:33:17,930 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 12:33:18,515 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 12:33:18,534 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 12:33:18,535 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 12:35:35,593 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 12:35:35,597 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 12:37:52,995 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 12:37:52,998 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 12:40:15,099 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 12:40:15,105 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 12:40:30,507 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 12:42:43,193 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 12:45:06,113 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 12:47:21,075 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 12:47:21,078 - __main__ - ERROR - Failed to generate video tensor: No video chunks generated or some chunks failed
+2025-09-26 12:47:21,078 - __main__ - ERROR - Video generation failed for task 36d6c9ce-f313-4456-af11-857d2ca0f918: No video chunks generated or some chunks failed
+2025-09-26 12:58:15,624 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 12:58:15,698 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 12:58:15,699 - __main__ - INFO - Loading models...
+2025-09-26 12:58:15,699 - __main__ - INFO - Loading I2V models...
+2025-09-26 12:59:26,676 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 12:59:47,331 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 12:59:47,331 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:00:03,200 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 13:01:08,282 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:01:36,692 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:01:36,693 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:01:50,088 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 13:02:48,640 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:03:14,893 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:03:14,894 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:03:21,161 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 13:04:22,195 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:04:50,699 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:04:50,699 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:04:59,152 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 13:05:00,833 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 13:05:00,835 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 13:05:00,835 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 13:05:00,835 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 13:05:00,836 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 13:05:16,214 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 13:05:16,376 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_15ecdd74cc1e49c4a221010954a1b326.jpg
+2025-09-26 13:05:16,385 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_15ecdd74cc1e49c4a221010954a1b326.jpg
+2025-09-26 13:05:16,387 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 13:05:16,388 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 13:05:16,934 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 13:05:16,949 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 13:05:16,964 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 13:07:38,654 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 13:07:38,661 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 13:09:57,717 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 13:09:57,721 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 13:12:20,831 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 13:12:20,835 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 13:12:33,525 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 13:12:37,338 - __main__ - INFO - Thread 1 completed
+2025-09-26 13:14:47,914 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 13:14:47,924 - __main__ - INFO - Thread 2 completed
+2025-09-26 13:17:13,565 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 13:17:13,583 - __main__ - INFO - Thread 3 completed
+2025-09-26 13:19:33,327 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 13:19:33,328 - __main__ - INFO - Thread 4 completed
+2025-09-26 13:19:33,329 - __main__ - INFO - Generated video chunks: 5
+2025-09-26 13:19:33,329 - __main__ - ERROR - Chunk 1: None (failed)
+2025-09-26 13:19:33,329 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-26 13:19:33,330 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-26 13:19:33,331 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-26 13:19:33,331 - __main__ - INFO - Chunk 5: shape torch.Size([81, 480, 832, 3])
+2025-09-26 13:19:33,338 - __main__ - ERROR - Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 13:19:33,339 - __main__ - ERROR - Failed to generate video tensor: Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 13:19:33,339 - __main__ - ERROR - Video generation failed for task e86c84a6-adc9-49dc-ba2d-4b61162f2cbf: Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 13:28:05,875 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 13:28:05,963 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 13:28:05,964 - __main__ - INFO - Loading models...
+2025-09-26 13:28:05,964 - __main__ - INFO - Loading I2V models...
+2025-09-26 13:29:04,892 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:29:28,900 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:29:28,900 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:29:35,893 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 13:30:40,382 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:31:09,358 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:31:09,359 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:31:22,279 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 13:32:21,766 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:32:49,127 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:32:49,128 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:32:55,939 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 13:33:56,872 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:34:25,659 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:34:25,659 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:34:31,951 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 13:34:33,652 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 13:34:33,654 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 13:34:33,655 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 13:34:33,655 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 13:34:33,655 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 13:35:24,522 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 13:35:24,749 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_a909ea969a4f4109977b20e7ae898194.jpg
+2025-09-26 13:35:24,757 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_a909ea969a4f4109977b20e7ae898194.jpg
+2025-09-26 13:35:24,761 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 13:35:24,762 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 13:35:24,820 - __main__ - ERROR - [Chunk 1] Generation failed: Input type (CUDABFloat16Type) and weight type (CPUBFloat16Type) should be the same
+2025-09-26 13:35:24,821 - __main__ - ERROR - [Chunk 1] Exception details: RuntimeError: Input type (CUDABFloat16Type) and weight type (CPUBFloat16Type) should be the same
+2025-09-26 13:35:24,823 - __main__ - ERROR - [Chunk 1] Traceback: Traceback (most recent call last):
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/fastapi_parallel_i2v_server.py", line 607, in generate_video_chunk
+    initial_latent = pipeline.vae.encode_to_latent(image_tensor_cuda)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/utils/wan_wrapper.py", line 95, in encode_to_latent
+    output = [
+             ^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/utils/wan_wrapper.py", line 96, in <listcomp>
+    self.model.encode(u.unsqueeze(0), scale).float().squeeze(0)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/wan/modules/vae.py", line 526, in encode
+    out = self.encoder(
+          ^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/wan/modules/vae.py", line 329, in forward
+    x = self.conv1(x, feat_cache[idx])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/wan/modules/vae.py", line 36, in forward
+    return super().forward(x)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 725, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 720, in _conv_forward
+    return F.conv3d(
+           ^^^^^^^^^
+RuntimeError: Input type (CUDABFloat16Type) and weight type (CPUBFloat16Type) should be the same
+
+2025-09-26 13:35:24,829 - __main__ - INFO - Thread 1 completed
+2025-09-26 13:35:24,998 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 13:35:24,998 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 13:35:25,011 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 13:38:00,161 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 13:38:00,257 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 13:38:00,257 - __main__ - INFO - Loading models...
+2025-09-26 13:38:00,257 - __main__ - INFO - Loading I2V models...
+2025-09-26 13:38:59,282 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:39:23,099 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:39:23,100 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:39:33,033 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 13:40:36,112 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:41:04,740 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:41:04,740 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:41:14,353 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 13:42:12,186 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:42:39,020 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:42:39,020 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:42:45,263 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 13:43:50,912 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:44:18,089 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:44:18,090 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:44:25,477 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 13:44:27,011 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 13:44:27,012 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 13:44:27,013 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 13:44:27,013 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 13:44:27,013 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 13:44:30,925 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 13:44:31,154 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_2eb4a64c43264aeab43a1cbc35b70fa2.jpg
+2025-09-26 13:44:31,162 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_2eb4a64c43264aeab43a1cbc35b70fa2.jpg
+2025-09-26 13:44:31,165 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 13:44:31,165 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 13:44:31,203 - __main__ - ERROR - [Chunk 1] Generation failed: Input type (CUDABFloat16Type) and weight type (CPUBFloat16Type) should be the same
+2025-09-26 13:44:31,204 - __main__ - ERROR - [Chunk 1] Exception details: RuntimeError: Input type (CUDABFloat16Type) and weight type (CPUBFloat16Type) should be the same
+2025-09-26 13:44:31,207 - __main__ - ERROR - [Chunk 1] Traceback: Traceback (most recent call last):
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/fastapi_parallel_i2v_server.py", line 606, in generate_video_chunk
+    initial_latent = pipeline.vae.encode_to_latent(image_tensor_cuda)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/utils/wan_wrapper.py", line 95, in encode_to_latent
+    output = [
+             ^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/utils/wan_wrapper.py", line 96, in <listcomp>
+    self.model.encode(u.unsqueeze(0), scale).float().squeeze(0)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/wan/modules/vae.py", line 526, in encode
+    out = self.encoder(
+          ^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/wan/modules/vae.py", line 329, in forward
+    x = self.conv1(x, feat_cache[idx])
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/nvfile-heatstorage/AIGC_H100/cyb/MMPL_9.25_2/MMPL_i2v/wan/modules/vae.py", line 36, in forward
+    return super().forward(x)
+           ^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 725, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.11/site-packages/torch/nn/modules/conv.py", line 720, in _conv_forward
+    return F.conv3d(
+           ^^^^^^^^^
+RuntimeError: Input type (CUDABFloat16Type) and weight type (CPUBFloat16Type) should be the same
+
+2025-09-26 13:44:31,212 - __main__ - INFO - Thread 1 completed
+2025-09-26 13:44:31,302 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 13:44:31,303 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 13:44:31,303 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 13:46:28,480 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 13:46:28,576 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 13:46:28,577 - __main__ - INFO - Loading models...
+2025-09-26 13:46:28,577 - __main__ - INFO - Loading I2V models...
+2025-09-26 13:47:36,815 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:48:05,846 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:48:05,847 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:48:19,564 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 13:49:26,964 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:50:01,064 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:50:01,064 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:50:10,812 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 13:51:19,341 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:51:51,527 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:51:51,528 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:52:06,412 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 13:53:22,536 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 13:53:57,891 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 13:53:57,892 - __main__ - INFO - 使用 generator 权重
+2025-09-26 13:54:08,883 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 13:54:10,593 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 13:54:10,595 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 13:54:10,596 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 13:54:10,596 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 13:54:10,596 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 13:54:15,205 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 13:54:15,434 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_09ee1097f6c1464f926d17bcd6e91caf.jpg
+2025-09-26 13:54:15,443 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_09ee1097f6c1464f926d17bcd6e91caf.jpg
+2025-09-26 13:54:15,446 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 13:54:15,446 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 13:54:15,827 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 13:54:15,827 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 13:54:15,828 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 13:54:16,103 - __main__ - INFO - [Chunk 1] Initial latent shape: torch.Size([1, 1, 16, 60, 104])
+2025-09-26 13:56:32,950 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 13:56:32,954 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 13:58:51,102 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 13:58:53,507 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 14:01:23,267 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 14:01:23,271 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 14:01:33,605 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 14:01:33,606 - __main__ - INFO - Thread 1 completed
+2025-09-26 14:03:48,281 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 14:03:48,294 - __main__ - INFO - Thread 2 completed
+2025-09-26 14:06:26,708 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 14:06:26,712 - __main__ - INFO - Thread 3 completed
+2025-09-26 14:08:45,072 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 14:08:45,074 - __main__ - INFO - Thread 4 completed
+2025-09-26 14:08:45,074 - __main__ - INFO - Generated video chunks: 5
+2025-09-26 14:08:45,075 - __main__ - ERROR - Chunk 1: None (failed)
+2025-09-26 14:08:45,076 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-26 14:08:45,077 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-26 14:08:45,077 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-26 14:08:45,077 - __main__ - INFO - Chunk 5: shape torch.Size([81, 480, 832, 3])
+2025-09-26 14:08:45,078 - __main__ - ERROR - Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 14:08:45,078 - __main__ - ERROR - Failed to generate video tensor: Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 14:08:45,078 - __main__ - ERROR - Video generation failed for task 8d39de77-2b4f-44d3-a639-6de1edc4baea: Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 14:10:05,671 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 14:10:05,759 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 14:10:05,760 - __main__ - INFO - Loading models...
+2025-09-26 14:10:05,760 - __main__ - INFO - Loading I2V models...
+2025-09-26 14:11:06,856 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 14:11:30,866 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 14:11:30,867 - __main__ - INFO - 使用 generator 权重
+2025-09-26 14:11:37,249 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 14:12:40,508 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 14:13:09,260 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 14:13:09,261 - __main__ - INFO - 使用 generator 权重
+2025-09-26 14:13:15,850 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 14:14:14,470 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 14:14:40,891 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 14:14:40,892 - __main__ - INFO - 使用 generator 权重
+2025-09-26 14:14:47,453 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 14:15:49,296 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 14:16:17,842 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 14:16:17,842 - __main__ - INFO - 使用 generator 权重
+2025-09-26 14:16:26,721 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 14:16:28,462 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 14:16:28,464 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 14:16:28,464 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 14:16:28,465 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 14:16:28,465 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 14:16:33,872 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 14:16:34,102 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_c25f158dd58449c3bab8b09d241c70f8.jpg
+2025-09-26 14:16:34,112 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_c25f158dd58449c3bab8b09d241c70f8.jpg
+2025-09-26 14:16:34,114 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 14:16:34,115 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 14:16:34,613 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 14:16:34,630 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 14:16:34,637 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 14:16:36,134 - __main__ - INFO - [Chunk 1] Initial latent shape: torch.Size([1, 1, 16, 60, 104])
+2025-09-26 14:18:52,671 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 14:18:52,678 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 14:21:09,740 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 14:21:09,747 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 14:23:31,844 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 14:23:31,848 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 14:23:46,763 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 14:23:46,786 - __main__ - INFO - Thread 1 completed
+2025-09-26 14:25:59,317 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 14:25:59,332 - __main__ - INFO - Thread 2 completed
+2025-09-26 14:28:22,678 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 14:28:22,682 - __main__ - INFO - Thread 3 completed
+2025-09-26 14:30:39,521 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 14:30:39,523 - __main__ - INFO - Thread 4 completed
+2025-09-26 14:30:39,523 - __main__ - INFO - Generated video chunks: 5
+2025-09-26 14:30:39,533 - __main__ - ERROR - Chunk 1: None (failed)
+2025-09-26 14:30:39,534 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-26 14:30:39,534 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-26 14:30:39,534 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-26 14:30:39,535 - __main__ - INFO - Chunk 5: shape torch.Size([81, 480, 832, 3])
+2025-09-26 14:30:39,535 - __main__ - ERROR - Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 14:30:39,535 - __main__ - ERROR - Failed to generate video tensor: Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 14:30:39,536 - __main__ - ERROR - Video generation failed for task f1e8d974-6552-4874-8339-bbe0a31f0319: Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 14:37:38,029 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 14:37:38,101 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 14:37:38,101 - __main__ - INFO - Loading models...
+2025-09-26 14:37:38,101 - __main__ - INFO - Loading I2V models...
+2025-09-26 14:38:37,101 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 14:39:02,090 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 14:39:02,091 - __main__ - INFO - 使用 generator 权重
+2025-09-26 14:39:08,196 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 14:40:09,672 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 14:40:38,226 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 14:40:38,227 - __main__ - INFO - 使用 generator 权重
+2025-09-26 14:40:44,635 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 14:41:42,688 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 14:42:09,010 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 14:42:09,010 - __main__ - INFO - 使用 generator 权重
+2025-09-26 14:42:15,688 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 14:43:16,961 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 14:43:45,488 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 14:43:45,489 - __main__ - INFO - 使用 generator 权重
+2025-09-26 14:43:52,760 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 14:43:54,396 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 14:43:54,398 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 14:43:54,399 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 14:43:54,399 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 14:43:54,399 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 15:33:16,360 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 15:33:16,458 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_5a7b1f8443b64eacb789b1fbb4639d3a.jpg
+2025-09-26 15:33:16,466 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_5a7b1f8443b64eacb789b1fbb4639d3a.jpg
+2025-09-26 15:33:16,469 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 15:33:16,469 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 15:33:16,857 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 15:33:16,861 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 15:33:16,865 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 15:33:17,132 - __main__ - INFO - [Chunk 1] Initial latent shape: torch.Size([1, 1, 16, 60, 104])
+2025-09-26 15:35:32,899 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 15:35:32,906 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 15:37:50,994 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 15:37:50,998 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 15:40:11,158 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 15:40:11,170 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 15:40:28,307 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 15:40:28,325 - __main__ - INFO - Thread 1 completed
+2025-09-26 15:42:40,121 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 15:42:40,123 - __main__ - INFO - Thread 2 completed
+2025-09-26 15:45:04,131 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 15:45:04,148 - __main__ - INFO - Thread 3 completed
+2025-09-26 15:47:22,324 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 15:47:22,326 - __main__ - INFO - Thread 4 completed
+2025-09-26 15:47:22,327 - __main__ - INFO - Generated video chunks: 5
+2025-09-26 15:47:22,329 - __main__ - ERROR - Chunk 1: None (failed)
+2025-09-26 15:47:22,335 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-26 15:47:22,336 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-26 15:47:22,336 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-26 15:47:22,336 - __main__ - INFO - Chunk 5: shape torch.Size([81, 480, 832, 3])
+2025-09-26 15:47:22,337 - __main__ - ERROR - Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 15:47:22,337 - __main__ - ERROR - Failed to generate video tensor: Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 15:47:22,337 - __main__ - ERROR - Video generation failed for task 7de0d35d-7b49-451d-b1b5-23d50f89965c: Video generation failed. Total chunks: 5, Failed chunks: [1]
+2025-09-26 15:58:38,102 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 15:58:38,198 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 15:58:38,199 - __main__ - INFO - Loading models...
+2025-09-26 15:58:38,199 - __main__ - INFO - Loading I2V models...
+2025-09-26 15:59:36,554 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 16:00:00,557 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 16:00:00,558 - __main__ - INFO - 使用 generator 权重
+2025-09-26 16:00:07,130 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 16:01:08,852 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 16:01:37,850 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 16:01:37,850 - __main__ - INFO - 使用 generator 权重
+2025-09-26 16:01:45,845 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 16:02:44,026 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 16:03:10,420 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 16:03:10,421 - __main__ - INFO - 使用 generator 权重
+2025-09-26 16:03:16,819 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 16:04:18,214 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 16:04:47,600 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 16:04:47,601 - __main__ - INFO - 使用 generator 权重
+2025-09-26 16:05:02,943 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 16:05:04,870 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 16:05:04,904 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 16:05:04,904 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 16:05:04,904 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 16:05:04,905 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 16:05:44,161 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 16:05:44,344 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_5953b60740644dfa9ae5fedc8b1d9ff9.jpg
+2025-09-26 16:05:44,352 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_5953b60740644dfa9ae5fedc8b1d9ff9.jpg
+2025-09-26 16:05:44,356 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 16:05:44,356 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 16:05:44,738 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 16:05:44,739 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 16:05:44,740 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 16:05:45,058 - __main__ - INFO - [Chunk 1] Initial latent shape: torch.Size([1, 1, 16, 60, 104])
+2025-09-26 16:08:03,789 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 16:08:03,793 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 16:10:19,167 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 16:10:19,177 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 16:12:44,302 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 16:12:44,305 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 16:12:59,819 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 16:12:59,836 - __main__ - INFO - Thread 1 completed
+2025-09-26 16:15:10,429 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 16:15:10,447 - __main__ - INFO - Thread 2 completed
+2025-09-26 16:17:35,877 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 16:17:35,880 - __main__ - INFO - Thread 3 completed
+2025-09-26 16:19:50,168 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 16:19:50,183 - __main__ - INFO - Thread 4 completed
+2025-09-26 16:19:50,183 - __main__ - INFO - Generated video chunks: 4
+2025-09-26 16:19:50,184 - __main__ - INFO - Chunk 1: shape torch.Size([81, 480, 832, 3])
+2025-09-26 16:19:50,184 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-26 16:19:50,185 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-26 16:19:50,185 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-26 16:19:52,913 - __main__ - INFO - Video generation completed: videos/parallel_i2v/i2v_68a2d489-441e-4be6-b268-39e3010aa558_1758903590.mp4
+2025-09-26 16:19:52,974 - __main__ - INFO - Injecting metadata to videos/parallel_i2v/i2v_68a2d489-441e-4be6-b268-39e3010aa558_1758903590.mp4: {'seqid': '2bd56fda-98b4-4eca-ad76-7ad3c2035153', 'task_id': '68a2d489-441e-4be6-b268-39e3010aa558', 'original_prompt': '一只猫在草地上奔跑', 'expanded_prompt': '一只猫在草地上奔跑', 'seed': 0, 'num_chunks': 4, 'generation_time': 1758903592.9744008}
+2025-09-26 16:19:52,984 - __main__ - INFO - Callback sent to http://localhost:10004/generatevideo-api/generatevideo/callback/image2video_race, status: 200
+2025-09-26 17:34:30,575 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 17:34:30,645 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 17:34:30,645 - __main__ - INFO - Loading models...
+2025-09-26 17:34:30,645 - __main__ - INFO - Loading I2V models...
+2025-09-26 17:35:39,615 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 17:36:09,551 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 17:36:09,552 - __main__ - INFO - 使用 generator 权重
+2025-09-26 17:36:23,678 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 17:37:27,519 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 17:37:52,341 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 17:37:52,342 - __main__ - INFO - 使用 generator 权重
+2025-09-26 17:37:58,783 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 17:39:04,601 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 17:39:33,997 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 17:39:33,998 - __main__ - INFO - 使用 generator 权重
+2025-09-26 17:39:43,111 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 17:40:52,008 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 17:41:16,013 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 17:41:16,014 - __main__ - INFO - 使用 generator 权重
+2025-09-26 17:41:23,210 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 17:41:24,214 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 17:41:25,281 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 17:41:25,281 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 17:41:25,282 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 17:41:25,282 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 17:41:48,887 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 17:41:49,051 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_2812022d28ad45f888d2c13e4ee0af9e.jpg
+2025-09-26 17:41:49,059 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_2812022d28ad45f888d2c13e4ee0af9e.jpg
+2025-09-26 17:41:49,062 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 17:41:49,063 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 17:41:49,470 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 17:41:49,471 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 17:41:49,475 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 17:41:49,773 - __main__ - INFO - [Chunk 1] Initial latent shape: torch.Size([1, 1, 16, 60, 104])
+2025-09-26 17:44:08,520 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 17:44:08,525 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 17:46:26,644 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 17:46:26,648 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 17:48:50,443 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 17:48:50,447 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 17:49:02,624 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 17:49:02,626 - __main__ - INFO - Thread 1 completed
+2025-09-26 17:51:17,427 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 17:51:17,442 - __main__ - INFO - Thread 2 completed
+2025-09-26 17:53:40,980 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 17:53:40,983 - __main__ - INFO - Thread 3 completed
+2025-09-26 17:55:55,869 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 17:55:55,871 - __main__ - INFO - Thread 4 completed
+2025-09-26 17:55:55,872 - __main__ - INFO - Generated video chunks: 4
+2025-09-26 17:55:55,872 - __main__ - INFO - Chunk 1: shape torch.Size([81, 480, 832, 3])
+2025-09-26 17:55:55,880 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-26 17:55:55,880 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-26 17:55:55,880 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-26 17:55:58,623 - __main__ - INFO - Video generation completed: videos/parallel_i2v/i2v_5c5efcc6-2284-4c49-99b7-89c99e471d68_1758909355.mp4
+2025-09-26 17:55:58,689 - __main__ - INFO - Injecting metadata to videos/parallel_i2v/i2v_5c5efcc6-2284-4c49-99b7-89c99e471d68_1758909355.mp4: {'seqid': 'b2021917-3400-4d5e-b62d-8923b6adf6d7', 'task_id': '5c5efcc6-2284-4c49-99b7-89c99e471d68', 'original_prompt': '一只猫在草地上奔跑', 'expanded_prompt': '一只猫在草地上奔跑', 'seed': 0, 'num_chunks': 4, 'generation_time': 1758909358.689016}
+2025-09-26 17:55:58,689 - __main__ - INFO - 【b2021917-3400-4d5e-b62d-8923b6adf6d7】回调请求体: {'seqid': 'b2021917-3400-4d5e-b62d-8923b6adf6d7', 'code': 10000, 'message': '任务执行成功', 'flag': 1, 'data': {'video': ['videos/parallel_i2v/i2v_5c5efcc6-2284-4c49-99b7-89c99e471d68_1758909355.mp4'], 'cover_image': [], 'text_en': '一只猫在草地上奔跑'}}
+2025-09-26 17:55:58,696 - __main__ - INFO - 【b2021917-3400-4d5e-b62d-8923b6adf6d7】回调成功: {"code":"0001","message":"success","data":"success"}
+2025-09-26 18:20:43,100 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 18:20:43,182 - __main__ - INFO - ===== S3 Configuration (Hardcoded) =====
+2025-09-26 18:20:43,182 - __main__ - INFO - S3 bucket: telestudio-bucket
+2025-09-26 18:20:43,183 - __main__ - INFO - S3 region: YOUR_REGION
+2025-09-26 18:20:43,183 - __main__ - INFO - S3 endpoint: http://ops-public-ceph.teleagi.in:8081
+2025-09-26 18:20:43,183 - __main__ - INFO - ========================================
+2025-09-26 18:20:43,184 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 18:20:43,184 - __main__ - INFO - Loading models...
+2025-09-26 18:20:43,184 - __main__ - INFO - Loading I2V models...
+2025-09-26 18:21:54,132 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 18:22:24,054 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 18:22:24,055 - __main__ - INFO - 使用 generator 权重
+2025-09-26 18:22:32,506 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 18:23:37,152 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 18:23:58,170 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 18:23:58,170 - __main__ - INFO - 使用 generator 权重
+2025-09-26 18:24:07,152 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 18:25:16,078 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 18:25:44,624 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 18:25:44,624 - __main__ - INFO - 使用 generator 权重
+2025-09-26 18:25:54,851 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 18:26:52,947 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 18:27:19,450 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 18:27:19,451 - __main__ - INFO - 使用 generator 权重
+2025-09-26 18:27:26,775 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 18:27:28,266 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 18:27:28,434 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 18:27:28,435 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 18:27:28,435 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 18:27:28,435 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 18:30:29,222 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 18:30:29,385 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_ca82b7e0045845c99db81272ebd7e658.jpg
+2025-09-26 18:30:29,393 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_ca82b7e0045845c99db81272ebd7e658.jpg
+2025-09-26 18:30:29,397 - __main__ - WARNING - 文本扩写请求失败: 422
+2025-09-26 18:30:29,398 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 18:30:29,776 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 18:30:29,784 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 18:30:29,790 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 18:30:30,055 - __main__ - INFO - [Chunk 1] Initial latent shape: torch.Size([1, 1, 16, 60, 104])
+2025-09-26 18:32:45,817 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 18:32:45,821 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 18:35:04,895 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 18:35:04,899 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 18:37:29,044 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 18:37:29,048 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 18:37:40,578 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 18:37:40,580 - __main__ - INFO - Thread 1 completed
+2025-09-26 18:39:55,682 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 18:39:55,701 - __main__ - INFO - Thread 2 completed
+2025-09-26 18:42:20,509 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 18:42:20,518 - __main__ - INFO - Thread 3 completed
+2025-09-26 18:44:36,703 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 18:44:36,704 - __main__ - INFO - Thread 4 completed
+2025-09-26 18:44:36,705 - __main__ - INFO - Generated video chunks: 4
+2025-09-26 18:44:36,705 - __main__ - INFO - Chunk 1: shape torch.Size([81, 480, 832, 3])
+2025-09-26 18:44:36,706 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-26 18:44:36,706 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-26 18:44:36,706 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-26 18:44:39,337 - __main__ - INFO - Video generation completed: videos/parallel_i2v/i2v_09e7b4a9-7f11-4725-9283-49ce3743a3b8_1758912276.mp4
+2025-09-26 18:44:39,410 - __main__ - INFO - Injecting metadata to videos/parallel_i2v/i2v_09e7b4a9-7f11-4725-9283-49ce3743a3b8_1758912276.mp4: {'seqid': '044f32b7-95d4-499d-b902-5f6e456514f6', 'task_id': '09e7b4a9-7f11-4725-9283-49ce3743a3b8', 'original_prompt': '一只猫在草地上奔跑', 'expanded_prompt': '一只猫在草地上奔跑', 'seed': 0, 'num_chunks': 4, 'generation_time': 1758912279.410829}
+2025-09-26 18:44:39,411 - __main__ - INFO - Uploading videos/parallel_i2v/i2v_09e7b4a9-7f11-4725-9283-49ce3743a3b8_1758912276.mp4 to S3 as i2v_videos/044f32b7-95d4-499d-b902-5f6e456514f6/i2v_09e7b4a9-7f11-4725-9283-49ce3743a3b8_1758912276.mp4
+2025-09-26 18:44:42,726 - __main__ - INFO - S3 上传成功，URL: http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_videos/044f32b7-95d4-499d-b902-5f6e456514f6/i2v_09e7b4a9-7f11-4725-9283-49ce3743a3b8_1758912276.mp4
+2025-09-26 18:44:42,727 - __main__ - INFO - 【044f32b7-95d4-499d-b902-5f6e456514f6】回调请求体: {'seqid': '044f32b7-95d4-499d-b902-5f6e456514f6', 'code': 10000, 'message': '任务执行成功', 'flag': 1, 'data': {'video': ['http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_videos/044f32b7-95d4-499d-b902-5f6e456514f6/i2v_09e7b4a9-7f11-4725-9283-49ce3743a3b8_1758912276.mp4'], 'cover_image': [], 'text_en': '一只猫在草地上奔跑'}}
+2025-09-26 18:44:42,732 - __main__ - INFO - 【044f32b7-95d4-499d-b902-5f6e456514f6】回调成功: {"code":"0001","message":"success","data":"success"}
+2025-09-26 19:09:07,701 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 19:09:07,771 - __main__ - INFO - ===== S3 Configuration (Hardcoded) =====
+2025-09-26 19:09:07,772 - __main__ - INFO - S3 bucket: telestudio-bucket
+2025-09-26 19:09:07,772 - __main__ - INFO - S3 region: YOUR_REGION
+2025-09-26 19:09:07,772 - __main__ - INFO - S3 endpoint: http://ops-public-ceph.teleagi.in:8081
+2025-09-26 19:09:07,773 - __main__ - INFO - ========================================
+2025-09-26 19:09:07,773 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 19:09:07,773 - __main__ - INFO - Loading models...
+2025-09-26 19:09:07,774 - __main__ - INFO - Loading I2V models...
+2025-09-26 19:10:06,261 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 19:10:29,971 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 19:10:29,971 - __main__ - INFO - 使用 generator 权重
+2025-09-26 19:10:36,055 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 19:11:37,384 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 19:12:05,866 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 19:12:05,867 - __main__ - INFO - 使用 generator 权重
+2025-09-26 19:12:14,062 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 19:13:12,563 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 19:13:38,990 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 19:13:38,990 - __main__ - INFO - 使用 generator 权重
+2025-09-26 19:13:45,198 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 19:14:46,685 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 19:15:15,391 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 19:15:15,392 - __main__ - INFO - 使用 generator 权重
+2025-09-26 19:15:23,215 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 19:15:24,822 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 19:15:24,823 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 19:15:24,824 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 19:15:24,824 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 19:15:24,824 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8997/expand_i2v
+2025-09-26 19:21:26,944 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 19:21:27,175 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_5967d3ab7d264369bffc8e2c1f684c01.jpg
+2025-09-26 19:21:27,184 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_5967d3ab7d264369bffc8e2c1f684c01.jpg
+2025-09-26 19:21:27,187 - __main__ - WARNING - 文本扩写请求失败: 422, body: {"detail":[{"type":"missing","loc":["body","text"],"msg":"Field required","input":{"prompt":"一只猫在草地上奔跑"}},{"type":"missing","loc":["body","image_url"],"msg":"Field required","input":{"prompt":"一只猫在草地上奔跑"}}]}
+2025-09-26 19:21:27,187 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只猫在草地上奔跑'
+2025-09-26 19:21:27,545 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 19:21:27,546 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 19:21:27,548 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 19:21:27,814 - __main__ - INFO - [Chunk 1] Initial latent shape: torch.Size([1, 1, 16, 60, 104])
+2025-09-26 19:23:43,957 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 19:23:43,961 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 19:26:02,015 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 19:26:02,019 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 19:28:23,132 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 19:28:23,142 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 19:28:38,039 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 19:28:38,056 - __main__ - INFO - Thread 1 completed
+2025-09-26 19:30:51,545 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 19:30:51,562 - __main__ - INFO - Thread 2 completed
+2025-09-26 19:33:14,625 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 19:33:14,639 - __main__ - INFO - Thread 3 completed
+2025-09-26 19:35:26,665 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 19:35:26,667 - __main__ - INFO - Thread 4 completed
+2025-09-26 19:35:26,668 - __main__ - INFO - Generated video chunks: 4
+2025-09-26 19:35:26,669 - __main__ - INFO - Chunk 1: shape torch.Size([81, 480, 832, 3])
+2025-09-26 19:35:26,676 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-26 19:35:26,676 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-26 19:35:26,677 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-26 19:35:29,369 - __main__ - INFO - Video generation completed: videos/parallel_i2v/i2v_c7a1606e-5586-428a-9eb6-81b9936f3182_1758915326.mp4
+2025-09-26 19:35:29,437 - __main__ - INFO - Injecting metadata to videos/parallel_i2v/i2v_c7a1606e-5586-428a-9eb6-81b9936f3182_1758915326.mp4: {'seqid': '347b9272-3e1f-48d6-bc8d-f522502f8737', 'task_id': 'c7a1606e-5586-428a-9eb6-81b9936f3182', 'original_prompt': '一只猫在草地上奔跑', 'expanded_prompt': '一只猫在草地上奔跑', 'seed': 0, 'num_chunks': 4, 'generation_time': 1758915329.4372408}
+2025-09-26 19:35:29,674 - __main__ - ERROR - 提取首帧失败: No module named 'moviepy.editor'
+2025-09-26 19:35:29,674 - __main__ - INFO - Uploading videos/parallel_i2v/i2v_c7a1606e-5586-428a-9eb6-81b9936f3182_1758915326.mp4 to S3 as i2v_videos/347b9272-3e1f-48d6-bc8d-f522502f8737/i2v_c7a1606e-5586-428a-9eb6-81b9936f3182_1758915326.mp4
+2025-09-26 19:35:31,114 - __main__ - INFO - S3 上传成功，URL: http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_videos/347b9272-3e1f-48d6-bc8d-f522502f8737/i2v_c7a1606e-5586-428a-9eb6-81b9936f3182_1758915326.mp4
+2025-09-26 19:35:31,115 - __main__ - INFO - 【347b9272-3e1f-48d6-bc8d-f522502f8737】回调请求体: {'seqid': '347b9272-3e1f-48d6-bc8d-f522502f8737', 'code': 10000, 'message': '任务执行成功', 'flag': 1, 'data': {'video': ['http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_videos/347b9272-3e1f-48d6-bc8d-f522502f8737/i2v_c7a1606e-5586-428a-9eb6-81b9936f3182_1758915326.mp4'], 'cover_image': [], 'text_en': '一只猫在草地上奔跑'}}
+2025-09-26 19:35:31,121 - __main__ - INFO - 【347b9272-3e1f-48d6-bc8d-f522502f8737】回调成功: {"code":"0001","message":"success","data":"success"}
+2025-09-26 19:41:13,886 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-26 19:41:13,960 - __main__ - INFO - ===== S3 Configuration (Hardcoded) =====
+2025-09-26 19:41:13,960 - __main__ - INFO - S3 bucket: telestudio-bucket
+2025-09-26 19:41:13,960 - __main__ - INFO - S3 region: YOUR_REGION
+2025-09-26 19:41:13,961 - __main__ - INFO - S3 endpoint: http://ops-public-ceph.teleagi.in:8081
+2025-09-26 19:41:13,961 - __main__ - INFO - ========================================
+2025-09-26 19:41:13,961 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-26 19:41:13,962 - __main__ - INFO - Loading models...
+2025-09-26 19:41:13,962 - __main__ - INFO - Loading I2V models...
+2025-09-26 19:42:23,764 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 19:42:52,753 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 19:42:52,753 - __main__ - INFO - 使用 generator 权重
+2025-09-26 19:43:05,510 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-26 19:44:12,780 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 19:44:33,711 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 19:44:33,711 - __main__ - INFO - 使用 generator 权重
+2025-09-26 19:44:42,727 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-26 19:45:54,351 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 19:46:23,163 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 19:46:23,164 - __main__ - INFO - 使用 generator 权重
+2025-09-26 19:46:34,101 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-26 19:47:35,731 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-26 19:48:01,965 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-26 19:48:01,966 - __main__ - INFO - 使用 generator 权重
+2025-09-26 19:48:08,993 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-26 19:48:10,386 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-26 19:48:10,387 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-26 19:48:10,388 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-26 19:48:10,388 - __main__ - INFO - 文本扩写: 启用
+2025-09-26 19:48:10,388 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8998/expand
+2025-09-26 19:53:09,899 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-26 19:53:10,133 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_b5af9301e25e4703b4901b0c5eddfb3d.jpg
+2025-09-26 19:53:10,141 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_b5af9301e25e4703b4901b0c5eddfb3d.jpg
+2025-09-26 19:53:10,728 - __main__ - INFO - 原始提示词: '一只猫在草地上奔跑'
+2025-09-26 19:53:10,728 - __main__ - INFO - 扩写后提示词: '一只活泼的小猫在绿油油的草地上欢快地奔跑，尾巴高高翘起，耳朵竖立，眼睛闪烁着兴奋的光芒。它的毛色是黑白相间的，显得格外灵动可爱。背景是一片广阔的草地，远处有几棵高大的树木，阳光洒在草地上，形成斑驳的光影。远景，慢镜头捕捉小猫奔跑的姿态。'
+2025-09-26 19:53:10,729 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只活泼的小猫在绿油油的草地上欢快地奔跑，尾巴高高翘起，耳朵竖立，眼睛闪烁着兴奋的光芒。它的毛色是黑白相间的，显得格外灵动可爱。背景是一片广阔的草地，远处有几棵高大的树木，阳光洒在草地上，形成斑驳的光影。远景，慢镜头捕捉小猫奔跑的姿态。'
+2025-09-26 19:53:11,122 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-26 19:53:11,128 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-26 19:53:11,136 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-26 19:53:11,449 - __main__ - INFO - [Chunk 1] Initial latent shape: torch.Size([1, 1, 16, 60, 104])
+2025-09-26 19:55:31,169 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-26 19:55:31,173 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-26 19:57:50,252 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-26 19:57:50,258 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-26 20:00:10,367 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-26 20:00:10,377 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-26 20:00:26,735 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-26 20:00:26,737 - __main__ - INFO - Thread 1 completed
+2025-09-26 20:02:39,073 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-26 20:02:39,075 - __main__ - INFO - Thread 2 completed
+2025-09-26 20:05:05,094 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-26 20:05:05,109 - __main__ - INFO - Thread 3 completed
+2025-09-26 20:07:20,033 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-26 20:07:20,034 - __main__ - INFO - Thread 4 completed
+2025-09-26 20:07:20,035 - __main__ - INFO - Generated video chunks: 4
+2025-09-26 20:07:20,038 - __main__ - INFO - Chunk 1: shape torch.Size([81, 480, 832, 3])
+2025-09-26 20:07:20,038 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-26 20:07:20,042 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-26 20:07:20,042 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-26 20:07:22,332 - __main__ - INFO - Video generation completed: videos/parallel_i2v/i2v_ef73e2e7-c976-4179-abc4-b8743fdc2889_1758917240.mp4
+2025-09-26 20:07:22,381 - __main__ - INFO - Injecting metadata to videos/parallel_i2v/i2v_ef73e2e7-c976-4179-abc4-b8743fdc2889_1758917240.mp4: {'seqid': 'f320c19d-e41a-4c80-8165-9cd30b867b2f', 'task_id': 'ef73e2e7-c976-4179-abc4-b8743fdc2889', 'original_prompt': '一只猫在草地上奔跑', 'expanded_prompt': '一只活泼的小猫在绿油油的草地上欢快地奔跑，尾巴高高翘起，耳朵竖立，眼睛闪烁着兴奋的光芒。它的毛色是黑白相间的，显得格外灵动可爱。背景是一片广阔的草地，远处有几棵高大的树木，阳光洒在草地上，形成斑驳的光影。远景，慢镜头捕捉小猫奔跑的姿态。', 'seed': 0, 'num_chunks': 4, 'generation_time': 1758917242.3810048}
+2025-09-26 20:07:22,604 - __main__ - ERROR - 提取首帧失败: No module named 'moviepy.editor'
+2025-09-26 20:07:22,605 - __main__ - INFO - Uploading videos/parallel_i2v/i2v_ef73e2e7-c976-4179-abc4-b8743fdc2889_1758917240.mp4 to S3 as i2v_videos/f320c19d-e41a-4c80-8165-9cd30b867b2f/i2v_ef73e2e7-c976-4179-abc4-b8743fdc2889_1758917240.mp4
+2025-09-26 20:07:25,867 - __main__ - INFO - S3 上传成功，URL: http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_videos/f320c19d-e41a-4c80-8165-9cd30b867b2f/i2v_ef73e2e7-c976-4179-abc4-b8743fdc2889_1758917240.mp4
+2025-09-26 20:07:25,868 - __main__ - INFO - 【f320c19d-e41a-4c80-8165-9cd30b867b2f】回调请求体: {'seqid': 'f320c19d-e41a-4c80-8165-9cd30b867b2f', 'code': 10000, 'message': '任务执行成功', 'flag': 1, 'data': {'video': ['http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_videos/f320c19d-e41a-4c80-8165-9cd30b867b2f/i2v_ef73e2e7-c976-4179-abc4-b8743fdc2889_1758917240.mp4'], 'cover_image': [], 'text_en': '一只活泼的小猫在绿油油的草地上欢快地奔跑，尾巴高高翘起，耳朵竖立，眼睛闪烁着兴奋的光芒。它的毛色是黑白相间的，显得格外灵动可爱。背景是一片广阔的草地，远处有几棵高大的树木，阳光洒在草地上，形成斑驳的光影。远景，慢镜头捕捉小猫奔跑的姿态。'}}
+2025-09-26 20:07:25,873 - __main__ - INFO - 【f320c19d-e41a-4c80-8165-9cd30b867b2f】回调成功: {"code":"0001","message":"success","data":"success"}
+2025-09-27 00:35:06,678 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-27 00:35:06,775 - __main__ - INFO - ===== S3 Configuration (Hardcoded) =====
+2025-09-27 00:35:06,776 - __main__ - INFO - S3 bucket: telestudio-bucket
+2025-09-27 00:35:06,776 - __main__ - INFO - S3 region: YOUR_REGION
+2025-09-27 00:35:06,776 - __main__ - INFO - S3 endpoint: http://ops-public-ceph.teleagi.in:8081
+2025-09-27 00:35:06,777 - __main__ - INFO - ========================================
+2025-09-27 00:35:06,777 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-27 00:35:06,777 - __main__ - INFO - Loading models...
+2025-09-27 00:35:06,777 - __main__ - INFO - Loading I2V models...
+2025-09-27 00:36:06,266 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 00:36:30,821 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 00:36:30,822 - __main__ - INFO - 使用 generator 权重
+2025-09-27 00:36:39,507 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-27 00:37:41,031 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 00:38:09,927 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 00:38:09,927 - __main__ - INFO - 使用 generator 权重
+2025-09-27 00:38:17,994 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-27 00:39:15,491 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 00:39:42,261 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 00:39:42,262 - __main__ - INFO - 使用 generator 权重
+2025-09-27 00:39:48,468 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-27 00:41:20,429 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-27 00:41:20,526 - __main__ - INFO - ===== S3 Configuration (Hardcoded) =====
+2025-09-27 00:41:20,526 - __main__ - INFO - S3 bucket: telestudio-bucket
+2025-09-27 00:41:20,527 - __main__ - INFO - S3 region: YOUR_REGION
+2025-09-27 00:41:20,527 - __main__ - INFO - S3 endpoint: http://ops-public-ceph.teleagi.in:8081
+2025-09-27 00:41:20,527 - __main__ - INFO - ========================================
+2025-09-27 00:41:20,528 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-27 00:41:20,528 - __main__ - INFO - Loading models...
+2025-09-27 00:41:20,528 - __main__ - INFO - Loading I2V models...
+2025-09-27 00:42:19,272 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 00:42:43,170 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 00:42:43,171 - __main__ - INFO - 使用 generator 权重
+2025-09-27 00:42:49,507 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-27 00:43:50,982 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 00:44:19,622 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 00:44:19,623 - __main__ - INFO - 使用 generator 权重
+2025-09-27 00:44:26,032 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-27 00:45:23,864 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 00:45:50,104 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 00:45:50,105 - __main__ - INFO - 使用 generator 权重
+2025-09-27 00:45:56,600 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-27 00:46:57,839 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 00:47:27,445 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 00:47:27,446 - __main__ - INFO - 使用 generator 权重
+2025-09-27 00:47:36,442 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-27 00:47:38,143 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-27 00:47:38,145 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-27 00:47:38,145 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-27 00:47:38,146 - __main__ - INFO - 文本扩写: 启用
+2025-09-27 00:47:38,146 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8998/expand
+2025-09-27 00:52:30,669 - __main__ - INFO - 提取S3对象名称: b8bd85561c514b178e9fc1fc5885f7e0.png
+2025-09-27 00:52:30,836 - __main__ - INFO - 图片下载成功: b8bd85561c514b178e9fc1fc5885f7e0.png -> ./temp_downloads/img_c16b3c455bb645e8a7e87c989b0776da.jpg
+2025-09-27 00:52:30,846 - __main__ - INFO - 临时文件删除成功: ./temp_downloads/img_c16b3c455bb645e8a7e87c989b0776da.jpg
+2025-09-27 00:52:31,432 - __main__ - INFO - 原始提示词: '一只猫在草地上奔跑'
+2025-09-27 00:52:31,433 - __main__ - INFO - 扩写后提示词: '一只活泼的小猫在绿油油的草地上欢快地奔跑，尾巴高高翘起，耳朵竖立，眼睛闪烁着兴奋的光芒。它的毛色是黑白相间的，显得格外灵动可爱。背景是一片广阔的草地，远处有几棵高大的树木，阳光洒在草地上，形成斑驳的光影。远景，慢镜头捕捉小猫奔跑的姿态。'
+2025-09-27 00:52:31,433 - __main__ - INFO - 文本扩写成功: '一只猫在草地上奔跑' -> '一只活泼的小猫在绿油油的草地上欢快地奔跑，尾巴高高翘起，耳朵竖立，眼睛闪烁着兴奋的光芒。它的毛色是黑白相间的，显得格外灵动可爱。背景是一片广阔的草地，远处有几棵高大的树木，阳光洒在草地上，形成斑驳的光影。远景，慢镜头捕捉小猫奔跑的姿态。'
+2025-09-27 00:52:31,810 - __main__ - INFO - [Chunk 4] Waiting for latents_chunk3.pt...
+2025-09-27 00:52:31,812 - __main__ - INFO - [Chunk 2] Waiting for latents_chunk1.pt...
+2025-09-27 00:52:31,816 - __main__ - INFO - [Chunk 3] Waiting for latents_chunk2.pt...
+2025-09-27 00:52:32,122 - __main__ - INFO - [Chunk 1] Initial latent shape: torch.Size([1, 1, 16, 60, 104])
+2025-09-27 00:54:47,860 - __main__ - INFO - [Chunk 2] Detected latents_chunk1.pt, loading as initial_latent...
+2025-09-27 00:54:47,864 - __main__ - INFO - [Chunk 2] Removed latents_chunk1.pt
+2025-09-27 00:57:06,141 - __main__ - INFO - [Chunk 3] Detected latents_chunk2.pt, loading as initial_latent...
+2025-09-27 00:57:06,242 - __main__ - INFO - [Chunk 3] Removed latents_chunk2.pt
+2025-09-27 00:59:26,611 - __main__ - INFO - [Chunk 4] Detected latents_chunk3.pt, loading as initial_latent...
+2025-09-27 00:59:26,621 - __main__ - INFO - [Chunk 4] Removed latents_chunk3.pt
+2025-09-27 00:59:42,875 - __main__ - INFO - [Chunk 1] Generated successfully
+2025-09-27 00:59:42,894 - __main__ - INFO - Thread 1 completed
+2025-09-27 01:01:55,594 - __main__ - INFO - [Chunk 2] Generated successfully
+2025-09-27 01:01:55,613 - __main__ - INFO - Thread 2 completed
+2025-09-27 01:04:16,534 - __main__ - INFO - [Chunk 3] Generated successfully
+2025-09-27 01:04:16,536 - __main__ - INFO - Thread 3 completed
+2025-09-27 01:06:31,609 - __main__ - INFO - [Chunk 4] Generated successfully
+2025-09-27 01:06:31,613 - __main__ - INFO - Thread 4 completed
+2025-09-27 01:06:31,613 - __main__ - INFO - Generated video chunks: 4
+2025-09-27 01:06:31,615 - __main__ - INFO - Chunk 1: shape torch.Size([81, 480, 832, 3])
+2025-09-27 01:06:31,622 - __main__ - INFO - Chunk 2: shape torch.Size([81, 480, 832, 3])
+2025-09-27 01:06:31,623 - __main__ - INFO - Chunk 3: shape torch.Size([81, 480, 832, 3])
+2025-09-27 01:06:31,623 - __main__ - INFO - Chunk 4: shape torch.Size([81, 480, 832, 3])
+2025-09-27 01:06:33,945 - __main__ - INFO - Video generation completed: videos/parallel_i2v/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191.mp4
+2025-09-27 01:06:34,029 - __main__ - INFO - Injecting metadata to videos/parallel_i2v/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191.mp4: {'seqid': 'b4952c03-5954-44a3-b044-85e53261557f', 'task_id': '084aaef1-f263-4cb6-a0b4-9a0f3209c2c2', 'original_prompt': '一只猫在草地上奔跑', 'expanded_prompt': '一只活泼的小猫在绿油油的草地上欢快地奔跑，尾巴高高翘起，耳朵竖立，眼睛闪烁着兴奋的光芒。它的毛色是黑白相间的，显得格外灵动可爱。背景是一片广阔的草地，远处有几棵高大的树木，阳光洒在草地上，形成斑驳的光影。远景，慢镜头捕捉小猫奔跑的姿态。', 'seed': 0, 'num_chunks': 4, 'generation_time': 1758935194.0295565}
+2025-09-27 01:06:34,484 - __main__ - INFO - 视频首帧提取成功(moviepy): videos/parallel_i2v/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191_cover.png
+2025-09-27 01:06:34,485 - __main__ - INFO - Uploading videos/parallel_i2v/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191.mp4 to S3 as i2v_videos/b4952c03-5954-44a3-b044-85e53261557f/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191.mp4
+2025-09-27 01:06:36,817 - __main__ - INFO - S3 上传成功，URL: http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_videos/b4952c03-5954-44a3-b044-85e53261557f/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191.mp4
+2025-09-27 01:06:36,818 - __main__ - INFO - Uploading videos/parallel_i2v/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191_cover.png to S3 as i2v_covers/b4952c03-5954-44a3-b044-85e53261557f/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191_cover.png
+2025-09-27 01:06:37,229 - __main__ - INFO - S3 上传成功，URL: http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_covers/b4952c03-5954-44a3-b044-85e53261557f/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191_cover.png
+2025-09-27 01:06:37,230 - __main__ - INFO - 【b4952c03-5954-44a3-b044-85e53261557f】回调请求体: {'seqid': 'b4952c03-5954-44a3-b044-85e53261557f', 'code': 10000, 'message': '任务执行成功', 'flag': 1, 'data': {'video': ['http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_videos/b4952c03-5954-44a3-b044-85e53261557f/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191.mp4'], 'cover_image': ['http://ops-public-ceph.teleagi.in:8081/telestudio-bucket/i2v_covers/b4952c03-5954-44a3-b044-85e53261557f/i2v_084aaef1-f263-4cb6-a0b4-9a0f3209c2c2_1758935191_cover.png'], 'text_en': '一只活泼的小猫在绿油油的草地上欢快地奔跑，尾巴高高翘起，耳朵竖立，眼睛闪烁着兴奋的光芒。它的毛色是黑白相间的，显得格外灵动可爱。背景是一片广阔的草地，远处有几棵高大的树木，阳光洒在草地上，形成斑驳的光影。远景，慢镜头捕捉小猫奔跑的姿态。'}}
+2025-09-27 01:06:37,235 - __main__ - INFO - 【b4952c03-5954-44a3-b044-85e53261557f】回调成功: {"code":"0001","message":"success","data":"success"}
+2025-09-27 01:44:19,530 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-27 01:44:19,618 - __main__ - INFO - ===== S3 Configuration (Hardcoded) =====
+2025-09-27 01:44:19,619 - __main__ - INFO - S3 bucket: telestudio-bucket
+2025-09-27 01:44:19,619 - __main__ - INFO - S3 region: YOUR_REGION
+2025-09-27 01:44:19,619 - __main__ - INFO - S3 endpoint: http://ops-public-ceph.teleagi.in:8081
+2025-09-27 01:44:19,620 - __main__ - INFO - ========================================
+2025-09-27 01:44:19,620 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-27 01:44:19,620 - __main__ - INFO - Loading models...
+2025-09-27 01:44:19,620 - __main__ - INFO - Loading I2V models...
+2025-09-27 01:47:00,136 - __main__ - WARNING - 无法导入image_downloader模块: No module named 'image_downloader'
+2025-09-27 01:47:00,206 - __main__ - INFO - ===== S3 Configuration (Hardcoded) =====
+2025-09-27 01:47:00,206 - __main__ - INFO - S3 bucket: telestudio-bucket
+2025-09-27 01:47:00,206 - __main__ - INFO - S3 region: YOUR_REGION
+2025-09-27 01:47:00,207 - __main__ - INFO - S3 endpoint: http://ops-public-ceph.teleagi.in:8081
+2025-09-27 01:47:00,207 - __main__ - INFO - ========================================
+2025-09-27 01:47:00,207 - __main__ - INFO - Initializing Parallel I2V Model Manager...
+2025-09-27 01:47:00,207 - __main__ - INFO - Loading models...
+2025-09-27 01:47:00,208 - __main__ - INFO - Loading I2V models...
+2025-09-27 01:48:08,615 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 01:48:36,067 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 01:48:36,067 - __main__ - INFO - 使用 generator 权重
+2025-09-27 01:48:45,186 - __main__ - INFO - Loaded pipeline for chunk 1 on cuda:0
+2025-09-27 01:49:56,324 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 01:50:26,068 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 01:50:26,069 - __main__ - INFO - 使用 generator 权重
+2025-09-27 01:50:36,570 - __main__ - INFO - Loaded pipeline for chunk 2 on cuda:1
+2025-09-27 01:51:45,178 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 01:52:14,794 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 01:52:14,795 - __main__ - INFO - 使用 generator 权重
+2025-09-27 01:52:25,841 - __main__ - INFO - Loaded pipeline for chunk 3 on cuda:2
+2025-09-27 01:53:35,495 - root - INFO - loading //Wan2.1-T2V-14B/Wan2.1_VAE.pth
+2025-09-27 01:54:05,327 - __main__ - WARNING - 权重键 'generator_ema' 不存在，尝试使用其他键
+2025-09-27 01:54:05,328 - __main__ - INFO - 使用 generator 权重
+2025-09-27 01:54:18,879 - __main__ - INFO - Loaded pipeline for chunk 4 on cuda:3
+2025-09-27 01:54:20,527 - __main__ - INFO - Initializing Parallel I2V Generation Service...
+2025-09-27 01:54:20,529 - __main__ - INFO - Starting Parallel I2V FastAPI server on 0.0.0.0:9035
+2025-09-27 01:54:20,529 - __main__ - INFO - API Documentation: http://0.0.0.0:9035/docs
+2025-09-27 01:54:20,529 - __main__ - INFO - 文本扩写: 启用
+2025-09-27 01:54:20,529 - __main__ - INFO - 扩写服务URL: http://10.127.16.1:8998/expand
+2025-09-27 02:50:54,572 - __main__ - ERROR - Video generation failed for task f6157096-4a85-4bf4-9e07-e314a4b82cce: Either image_url or image_base64 must be provided
+2025-09-27 02:50:54,574 - __main__ - INFO - 【de09af33fe189bc125ee3a3f28c60cdd】回调请求体: {'seqid': 'de09af33fe189bc125ee3a3f28c60cdd', 'code': 10903, 'message': 'Either image_url or image_base64 must be provided', 'flag': 0, 'data': {'video': [], 'cover_image': [], 'text_en': '关羽'}}
+2025-09-27 02:50:54,935 - __main__ - INFO - 【de09af33fe189bc125ee3a3f28c60cdd】回调成功: {"code":"0001","message":"success","data":"success"}
+2025-09-27 03:07:30,942 - __main__ - ERROR - Video generation failed for task b42903e9-3a77-40a6-9ba5-5b9461afe266: Either image_url or image_base64 must be provided
+2025-09-27 03:07:30,943 - __main__ - INFO - 【b2f71705620c51c486d1585a57885c0e】回调请求体: {'seqid': 'b2f71705620c51c486d1585a57885c0e', 'code': 10903, 'message': 'Either image_url or image_base64 must be provided', 'flag': 0, 'data': {'video': [], 'cover_image': [], 'text_en': '关羽'}}
+2025-09-27 03:07:31,345 - __main__ - INFO - 【b2f71705620c51c486d1585a57885c0e】回调成功: {"code":"0001","message":"success","data":"success"}
