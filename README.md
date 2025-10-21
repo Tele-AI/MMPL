@@ -64,7 +64,9 @@ After the downloads complete, your directory layout should be:
 │       ├── t2v_14B_8k.pt
 ├── wan_models/
 │   └── Wan2.1-T2V-1.3B
-│   └── Wan2.1-T2V-14B            
+│   └── Wan2.1-T2V-14B
+├── README.md
+├── demo.png       
 └── ...    
 ```
 ### T2V Inference
