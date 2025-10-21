@@ -15,8 +15,8 @@
 
 - [x] **Paper release** – Publicly available on arXiv ✅ *(2025-08-05)*  
 - [x] **Demo page release** – Launch interactive demo page ✅ *(2025-08-05)*  
-- [x] **14B TF Image-to-video inference code release** – *Coming soon* ✅ *(2025-10-21)*  
-- [x] **14B TF Text-to-video inference code release** – *Coming soon* ✅ *(2025-10-21)*  
+- [x] **14B TF Image-to-video inference code release** – ✅ *(2025-10-21)*  
+- [x] **14B TF Text-to-video inference code release** – ✅ *(2025-10-21)*  
 - [ ] **Training code release** – *Coming soon* *(ETA: in several weeks)*  
 - [ ] **Data release** – *Coming soon* *(ETA: in several weeks)*  
 
