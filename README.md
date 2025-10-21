@@ -98,9 +98,9 @@ Other config files and corresponding checkpoints can be found in [configs](confi
 
 ## Acknowledgements
 This codebase is built on top of the open-source implementations of:
-- [CausVid](https://github.com/tianweiy/CausVid) by [Tianwei Yin](https://tianweiy.github.io/)
+- [CausVid](https://github.com/tianweiy/CausVid)
 - [Wan2.1](https://github.com/Wan-Video/Wan2.1)
-- [Self-Forcing](https://github.com/guandeh17/Self-Forcing) by Xuan Huang
+- [Self-Forcing](https://github.com/guandeh17/Self-Forcing)
 
 ## Citation
 If you find this codebase useful for your research, please kindly cite our paper:
