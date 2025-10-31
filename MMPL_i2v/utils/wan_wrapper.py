@@ -151,7 +151,7 @@ class WanDiffusionWrapper(torch.nn.Module):
             # self.model = CausalWanModel.from_pretrained(
             #     f"wan_models/{model_name}/", local_attn_size=local_attn_size, sink_size=sink_size)
         else:
-            self.model = WanModel.from_pretrained(f"/gemini/platform/public/aigc/wangzhongyu/20250729_AnchorForcing_prompt/ckpt/{model_name}")
+            self.model = WanModel.from_pretrained(f"ckpt/{model_name}")
         self.model.eval()
 
         # For non-causal diffusion, all frames share the same timestep
